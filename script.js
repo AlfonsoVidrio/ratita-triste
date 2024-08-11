@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let scale = 1;
 
     noButton.addEventListener('click', () => {
-        scale += 0.2;
+        scale += 0.5;
         yesButton.style.transform = `scale(${scale})`;
         audio.play().catch(error => {
             console.log('Error al reproducir el audio:', error);
