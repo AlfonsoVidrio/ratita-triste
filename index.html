@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./assets/ratita.jpg" type="image/x-icon">
+    <title>¿Me perdonas?</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="card">
+            <h1 class="card__title">¿Me perdonas?</h1>
+            <figure class="card__image-container">
+                <img src="./assets/ratita.jpg" alt="ratita triste" class="card__image">
+            </figure>
+            <div class="card__buttons" id="buttonsContainer">
+                <button class="card__btn card__btn--yes" id="yes">Si</button>
+                <button class="card__btn card__btn--no" id="no">No</button>
+            </div>
+            <p id="thankYouMessage" class="thank-you-message" style="display: none;">¡Gracias por perdonarme!</p>
+            <button id="resetButton" class="reset-button" style="display: none;">
+                <svg width="24px" height="24px" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <g fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="matrix(0 1 1 0 2.5 2.5)">
+                            <path d="m3.98652376 1.07807068c-2.38377179 1.38514556-3.98652376 3.96636605-3.98652376 6.92192932 0 4.418278 3.581722 8 8 8s8-3.581722 8-8-3.581722-8-8-8"></path>
+                            <path d="m4 1v4h-4" transform="matrix(1 0 0 -1 0 6)"></path>
+                        </g>
+                    </g>
+                </svg>
+            </button>
+        </div>
+    </main>
+    <audio id="audio" src="./assets/ratita-triste-violin.mp3"></audio>
+    <script src="./script.js"></script>
+</body>
+
+</html>
